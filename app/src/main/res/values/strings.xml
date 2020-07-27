@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DominykasProject</string>
+    <string name="Login">Login</string>
+    <string name="password">Password</string>
+    <string name="Email">Email</string>
+    <string name="dont_have_one">Dont have one?</string>
+    <string name="Registration_link">Register</string>
+    <string name="registrationScreen">Registration</string>
+    <string name="confirmPassword">Confirm password</string>
+    <string name="Register">Register</string>
+    <string name="scannerButton">Scann</string>
+    <string name="toast">Toast</string>
+    <string name="scannresult">Scan result</string>
+    <string name="addtodatabase">Add to wallet</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="#B0C4DE"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal">
+
+
+        <TextView
+            android:id="@+id/barCodeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="450sp"
+            android:textColor="@color/purple"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:text="@string/scannresult" />
+
+        <Button
+                android:id="@+id/scannerButton"
+                android:layout_width="430sp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="@string/scannerButton"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginTop="548sp"
+                android:stateListAnimator="@null"/>
+
+        <Button
+            android:id="@+id/toastButton"
+            android:layout_width="430sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="600sp"
+            android:background="@drawable/button"
+            android:gravity="center"
+            android:stateListAnimator="@null"
+            android:text="@string/addtodatabase"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</layout>
